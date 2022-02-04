@@ -6,7 +6,7 @@ import Interests from './components/Interests';
 
 const App = () => {
     return (
-        <div>
+        <div className="container">
             <Info />
             <About />
             <Interests />

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #23252C;
+    text-align: center;
+}
+
+.info {
+    color: white;
+    letter-spacing: -0.05em;
+}
+
+.info--title {
+    color: #F3BF99
+}
+
+.info--email-button {
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.info--linkedin-button {
+    background-color: #5093E2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.info--photo {
+    width: 100px;
+}
+
+.about {
+    color: white;
+    letter-spacing: -0.05em; 
+}
+
+
+
+.interests {
+    color: white;
+    letter-spacing: -0.05em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #161619;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer > img {
+    width: 40px;
+    margin: 10px;
+}
+
